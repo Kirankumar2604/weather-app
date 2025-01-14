@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color:#222;
+    --card-color:linear-gradient(135deg,#00feba,#5b548a);
+    --text-color:#fff;
+}
+body{
+    background: #343041;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: var(--card-color);
+    color: var(--text-color);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px -5px;
+    margin: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+}
+details summary{
+    list-style: none;
+    cursor: pointer;
+}
+details{
+    width: 250px;
+    padding: 50%;
+    margin: 100px auto 0;
+    padding: 10px;
+}
+/* flex-box */
+.ultra-main{
+    background: #343041;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    padding-top: 50px;
+    height: 110px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.main-box{
+    background-image: linear-gradient(to right top, #d16ba5, #cb5fb1, #be57c0, #a952d2, #8853e5, #686cf3, #4280fc, #0091ff, #00b1ff, #00ccff, #00e5fd, #5ffbf1);
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(209, 107, 165, 0.5), 0 6px 20px rgba(72, 108, 243, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub-box1, .sub-box2, .sub-box3, .sub-box4, .sub-box5 {
+    background: #343032; /* Example background color for the sub boxes */
+    color: #B7A4AD;
+    height: 80px; /* Example height */
+    width: 80px; /* Example width */
+    /* border: 2px solid black; Example border */
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .sub-box1 h1, .sub-box2 h1, .sub-box3 h1, .sub-box4 h1, .sub-box5 h1{
+    font-size: 80px;
+  }

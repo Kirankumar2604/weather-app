@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- flex-box -->
+     <div class="ultra-main">
+        <div class="main-box">
+            <div class="sub-box1"><h1>K</h1></div>
+            <div class="sub-box2"><h1>I</h1></div>
+            <div class="sub-box3"><h1>R</h1></div>
+            <div class="sub-box4"><h1>A</h1></div>
+            <div class="sub-box5"><h1>N</h1></div>
+            <div class="sub-box1"><h1>K</h1></div>
+            <div class="sub-box2"><h1>U</h1></div>
+            <div class="sub-box3"><h1>M</h1></div>
+            <div class="sub-box4"><h1>A</h1></div>
+            <div class="sub-box5"><h1>R</h1></div>
+        </div>
+     </div>
+    
+    <!-- weather -->
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="City Name" spellcheck="false">
+            <button class="btn"><img src="images/search.png" ></button>
+        </div>
+        <div class="error">
+            <p>Ivalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">Bengaluru</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div class="">
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div class="">
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main.js link -->
+     <script src="./main.js"></script>
+</body>
+</html>
